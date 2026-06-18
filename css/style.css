@@ -81,6 +81,15 @@ body {
     color: #000000;
     opacity: 1; /* Bootstrap por defecto le baja la opacidad, esto asegura el negro pleno */
 }
+/* Modifica el botón para que tenga borde negro */
+.btn-borde-negro {
+    border: 2px solid #000000 !important; /* Cambia el '2px' si lo quieres más fino o grueso */
+}
+
+/* Opcional: Asegura que al pasar el mouse (hover) mantenga el borde o cambie */
+.btn-borde-negro:hover {
+    border-color: #000000 !important;
+}
 
 /* Ajustes Navbar */
 .navbar-brand {
