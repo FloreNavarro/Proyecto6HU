@@ -11,7 +11,12 @@ body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: #212529;
 }
+.navbar-fondo{
+    background-color: #ffca2c;
 
+
+}
+ 
 /* Sección Principal (Hero) con temática gastronómica */
 .hero-section {
     /* Fondo con imagen de empanadas rústicas y capa oscura para legibilidad */
@@ -29,7 +34,7 @@ body {
 
 .main-btn:hover {
     transform: translateY(-2px);
-    background-color: #ffca2c !important;
+    background-color: #ffca2c ;
     box-shadow: 0 6px 20px rgba(255, 193, 7, 0.5);
 }
 
@@ -39,6 +44,15 @@ body {
     color: #dc3545; /* Rojo Bootstrap para combinar con el Warning */
 }
 
+.bg-color {
+    background-color: #3f4143; /* Elige el código HEX que más te guste, ej: #2c3034 o #1f2226 */
+}
+
+.card{
+
+  background-color: #ffca2c ;   
+}
+
 /* Efecto hover en las tarjetas de características */
 .custom-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -46,21 +60,34 @@ body {
 
 .custom-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12) !important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
 /* Formulario de Pedidos */
 .form-container {
-    border-radius: 16px !important;
+    background-color: #ffc107;
+    border-radius: 16px ;
     border: 1px solid #e3e3e3;
+
 }
 
 .form-control:focus {
-    border-color: #ffc107;
+    border-color: black;
     box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+/* Cambia el placeholder de todos los inputs y textareas del formulario */
+.needs-validation .form-control::placeholder {
+    color: #000000;
+    opacity: 1; /* Bootstrap por defecto le baja la opacidad, esto asegura el negro pleno */
 }
 
 /* Ajustes Navbar */
 .navbar-brand {
     font-size: 1.4rem;
+}
+
+footer{
+
+     background-color: #ffc107;
 }

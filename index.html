@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,30 +15,31 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
+<header>
     <!-- COMPONENTE 1: NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-fondo">
         <div class="container">
-            <a class="navbar-brand fw-bold text-warning" href="#">🥟 Doña Carmen</a>
+            <a class="navbar-brand fw-bold text-dark" href="#">🥟 Doña Carmen</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        <a class="nav-link active text-dark" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sabores">Nuestros Sabores</a>
+                        <a class="nav-link text-dark" href="#sabores">Nuestros Sabores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pedido">Hacer Pedido</a>
+                        <a class="nav-link text-dark" href="#pedido">Hacer Pedido</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    </header>
+ <main>
     <!-- SECCIÓN PRINCIPAL: HERO -->
     <section id="inicio" class="hero-section d-flex align-items-center text-center text-white">
         <div class="container">
@@ -46,8 +47,8 @@
                 <div class="col-md-10 col-lg-8">
                     <!-- COMPONENTE 2: BADGE -->
                     <span class="badge bg-warning text-dark mb-3 px-3 py-2 text-uppercase fw-bold">Horno de Barro 100% Caseras</span>
-                    <h1 class="display-3 fw-bold mb-3">Las verdaderas empanadas argentinas</h1>
-                    <p class="lead mb-4">Recetas heredadas, ingredientes seleccionados y el repulgue perfecto. Calentitas, jugosas y listas para disfrutar en casa.</p>
+                    <h1 class="display-3 fw-bold mb-3">Empanadas Deliciosas</h1>
+                    <p class="lead mb-4">El verdadero sabor Argentino</p>
                     <a href="#pedido" class="btn btn-warning btn-lg px-4 fw-bold main-btn">Pedir Ahora</a>
                 </div>
             </div>
@@ -55,11 +56,11 @@
     </section>
 
     <!-- SECCIÓN DE SERVICIOS/CARACTERÍSTICAS: CARDS (SISTEMA DE GRILLAS RESPONSIVE) -->
-    <section id="sabores" class="py-5 bg-light">
-        <div class="container py-4">
+    <section id="sabores" class="py-5 bg-color">
+        <div class="container py-4 ">
             <div class="text-center mb-5">
-                <h2 class="fw-bold">¿Qué nos hace diferentes?</h2>
-                <p class="text-muted">Calidad y sabor en cada mordisco</p>
+                <h2 class="fw-bold text-white">¿Qué nos hace diferentes?</h2>
+                <p class="text-white">Calidad y sabor en cada mordisco</p>
             </div>
             
             <!-- Sistema de Grillas: 1 col en móvil (col-12), 2 en tablets (col-md-6), 3 en desktop (col-lg-4) -->
@@ -72,8 +73,8 @@
                             <div class="card-icon mb-3">
                                 <i class="bi bi-fire"></i>
                             </div>
-                            <h5 class="card-title fw-bold">Ingredientes Premium</h5>
-                            <p class="card-text text-muted">Carne cortada a cuchillo, verduras frescas de huerta y quesos de primera calidad seleccionados diariamente.</p>
+                            <h5 class="card-title fw-bold text-dark">Ingredientes Primera Calidad</h5>
+                            <p class="card-text text-dark">Cocinadas en horno de barro.</p>
                         </div>
                     </div>
                 </div>
@@ -84,8 +85,8 @@
                             <div class="card-icon mb-3">
                                 <i class="bi bi-heart-fill"></i>
                             </div>
-                            <h5 class="card-title fw-bold">Variedad de Sabores</h5>
-                            <p class="card-text text-muted">Desde las clásicas salteñas y tucumanas hasta opciones vegetarianas y gourmet para todos los gustos.</p>
+                            <h5 class="card-title fw-bold text-dark">Variedad de Sabores</h5>
+                            <p class="card-text text-dark">Desde las clásicas opciones hasta vegetarianas, para todos los gustos.</p>
                         </div>
                     </div>
                 </div>
@@ -96,8 +97,8 @@
                             <div class="card-icon mb-3">
                                 <i class="bi bi-truck"></i>
                             </div>
-                            <h5 class="card-title fw-bold">Envío Rápido</h5>
-                            <p class="card-text text-muted">Reparto a domicilio rápido para asegurar que tus empanadas lleguen a la mesa como recién salidas del horno.</p>
+                            <h5 class="card-title fw-bold text-dark">Envío Rápido</h5>
+                            <p class="card-text text-dark">Reparto a domicilio rápido para asegurar que tus empanadas lleguen a la mesa como recién salidas del horno.</p>
                         </div>
                     </div>
                 </div>
@@ -107,31 +108,31 @@
 
     <!-- SECCIÓN DE CONTACTO: FORMULARIO -->
     <section id="pedido" class="py-5">
-        <div class="container py-4">
+        <div class="container py-4 ">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8 col-lg-6">
-                    <div class="form-container p-4 p-md-5 rounded shadow-sm border bg-white">
-                        <h2 class="fw-bold text-center mb-2">Haz tu Pedido o Consulta</h2>
-                        <p class="text-center text-muted mb-4">Déjanos tus datos y nos comunicaremos al instante para coordinar tu envío.</p>
+                    <div class="form-container p-4 p-md-5 rounded shadow-sm border bg-warning text-dark">
+                        <h2 class="fw-bold text-center text-black mb-2">Haz tu Pedido o Consulta</h2>
+                        <p class="text-center text-black mb-4">Déjanos tus datos y nos comunicaremos al instante para coordinar tu envío.</p>
                         
                         <!-- COMPONENTE 4: FORMULARIO CON VALIDACIÓN -->
                         <form class="needs-validation" novalidate>
                             <div class="mb-3">
                                 <label for="nombre" class="form-label fw-semibold">Nombre y Apellido</label>
-                                <input type="text" class="form-control" id="nombre" placeholder="Ej: Carlos Gómez" required>
+                                <input type="text" class="form-control bg-white text-black" id="nombre" placeholder="Ej: Carlos Gómez" required>
                                 <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
                             </div>
                             <div class="mb-3">
                                 <label for="telefono" class="form-label fw-semibold">Teléfono / WhatsApp</label>
-                                <input type="tel" class="form-control" id="telefono" placeholder="Ej: +54 9 261 123456" required>
+                                <input type="tel" class="form-control bg-white" id="telefono" placeholder="Ej: +54 9 261 123456" required>
                                 <div class="invalid-feedback">Por favor, ingresa un número de contacto.</div>
                             </div>
                             <div class="mb-3">
                                 <label for="pedido-detalles" class="form-label fw-semibold">¿Qué te gustaría pedir?</label>
-                                <textarea class="form-control" id="pedido-detalles" rows="4" placeholder="Ej: 1 docena de carne suave, 6 de jamón y queso..." required></textarea>
+                                <textarea class="form-control bg-white " id="pedido-detalles" rows="4" placeholder="Ej: 1 docena de carne suave, 6 de jamón y queso..." required></textarea>
                                 <div class="invalid-feedback">Por favor, indícanos tu pedido o consulta.</div>
                             </div>
-                            <button type="submit" class="btn btn-warning w-100 py-2 fw-bold text-uppercase text-dark">Enviar Pedido por WhatsApp</button>
+                            <button type="submit" class="btn btn-warning w-100 py-2 fw-bold text-uppercase ">Enviar Pedido por WhatsApp</button>
                         </form>
                         
                     </div>
@@ -139,9 +140,9 @@
             </div>
         </div>
     </section>
-
+</main>
     <!-- FOOTER -->
-    <footer class="bg-dark text-white text-center py-4">
+    <footer class="text-white text-center py-4">
         <div class="container">
             <small class="text-secondary">&copy; 2026 La Tradición Empanadas. Todos los derechos reservados.</small>
         </div>
