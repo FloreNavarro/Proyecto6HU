@@ -21,7 +21,7 @@ body {
 .hero-section {
     /* Fondo con imagen de empanadas rústicas y capa oscura para legibilidad */
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.7)), 
-                url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+                url('../img/EMPANADAS.webp') no-repeat center center/cover;
     min-height: 85vh;
     padding: 80px 0;
 }
