@@ -1,6 +1,6 @@
 # 🥟 Empanadas Gourmet - Doña Carmen
 
-¡Bienvenido al repositorio de **Doña Carmen**, una landing page moderna, responsiva y estilizada desarrollada para la presentación del **Trabajo Práctico N° 5** de la *Tecnicatura Superior en Desarrollo de Software*.
+¡Bienvenido al repositorio de **Doña Carmen**, una landing page moderna, responsiva y estilizada desarrollada para la presentación del **Trabajo Práctico N° 6**.
 
 Este proyecto simula la interfaz web de una casa de empanadas gourmet, combinando un diseño visualmente atractivo en tonos cálidos con una experiencia de usuario optimizada para dispositivos móviles y ordenadores.
 
