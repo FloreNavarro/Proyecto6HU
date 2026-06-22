@@ -47,4 +47,4 @@ Para clonar y visualizar este proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone 
+   git clone https://github.com/FloreNavarro/Proyecto6HU.git
